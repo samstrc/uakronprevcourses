@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Sep 30 20:09:06 2024
+
+@author: samstrickler
+"""
+
+
+
+# Problem 1
+
+# Write a short program in Python which requests two numbers from the
+# user and performs and prints out a message containing the basic numerical operations
+# (adding, subtracting, multiplying, dividing, exponentiating, integer division, and mod-
+# ulus) performed on the two numbers.
+
+print('Please enter two numbers: ')
+
+num1 = int(input())
+num2 = int(input())
+result = 0
+
+
+result = num1 + num2
+print('{} + {} = {}'.format(num1, num2, result))
+
+result = num1 - num2
+print('{} - {} = {}'.format(num1, num2, result))
+
+result = num1 * num2
+print('{} * {} = {}'.format(num1, num2, result))
+
+result = num1 // num2
+print('{} / {} = {}'.format(num1, num2, result))
+
+result = num1 % num2
+print('{} mod {} = {}'.format(num1, num2, result))
+
+result = num1 ** 2
+print('{} squared = {}'.format(num1, result))
+
+result = num2 ** 3
+print('{} cubed = {}'.format(num2, result))
+
+
+
+

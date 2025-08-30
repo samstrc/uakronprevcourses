@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Sep 30 20:35:44 2024
+
+@author: samstrickler
+"""
+
+# Using a while loop, write a program in Python to have your user guess a
+# number you have chosen between 0 and 100. For each guess, the user should be told if
+# their guess is too small or too big and prompt them to guess again. When the correct
+# number has been guessed, your program should print out “Congratulations, you have
+# correctly guessed the number {whichever number you selected}”.
+
+
+chosenNumber = 38
+
+print('Guess a number between 0 and 100:')
+userGuess = int(input())
+
+while (chosenNumber != userGuess):
+    if (userGuess > chosenNumber):
+        print('Incorrect. Your guess of {} was too large. Try again:'.format(userGuess))
+        userGuess = int(input())
+    else:
+        print('Incorrect. Your guess of {} was too small. Try again:'.format(userGuess))
+        userGuess = int(input())
+
+
+
+if(userGuess == chosenNumber):
+    print('Correct! Congratulations, you have correctly guessed the number {}.'.format(chosenNumber))
