@@ -1,2 +1,2 @@
-# Intro-Data-Science-Classes
-This repository is a collection of assignments and projects from two courses: Introduction to Data Science and Tools for Data Science.
+# uakronreposjs
+This repository is a collection of assignments and projects from three courses: Introduction to Data Science, Tools for Data Science, and Deep Learning.
